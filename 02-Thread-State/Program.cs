@@ -2,8 +2,7 @@
 
 class Program
 {
-
-    static void main(string[] args)
+    static void Main(string[] args)
     {
         var thread = new Thread(Run);
         thread.Priority = ThreadPriority.Highest;
